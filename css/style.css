@@ -105,8 +105,16 @@ margin-bottom: 20px;
 margin-bottom: 20px;
 }
 
+/*Testimonials*/
+.testimoals{
+    padding: 40px 0
+}
 
 
+.testimonials .testimonials-heading{
+    width: 700px;
+margin-bottom: 40px;
+}
 
 /*utility classes*/
 .container{
