@@ -91,9 +91,9 @@ margin-bottom: 20px;
 }
 
 /*Video*/
-.video{
-    paddings: 10px 0 40px;
-}
+    .video {
+        padding: 10px 0 40px;
+    }
 
 .video-content{
     display: flex;
