@@ -106,7 +106,7 @@ margin-bottom: 20px;
 }
 
 /*Testimonials*/
-.testimoals{
+.testimonials{
     padding: 40px 0
 }
 
@@ -225,3 +225,36 @@ margin-bottom: 40px;
     color: #fff;
 }
 
+
+.styled-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:25px 0;
+    font-size:20px;
+    text-align: center;
+}
+
+.styled-table thead tr{
+    background-color: #009879;
+    color:white;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #dddddd;
+    padding: 12px 15px; 
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

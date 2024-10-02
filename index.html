@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Growth App</title>
+    <a id="top">Home</a> <!---------This is an Hidden anchor to make the page back to the top come to-->
     <!--All this three links are the fonts that will be used as the Head-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />  <!-----CSS link-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-ixon" />
   </head>
 
@@ -99,7 +100,7 @@
 <section class="testimonials bg-dark">
     <div class="container">
         <h3 class="testimonials-heading text-xl">
-            Don't just take our word for it, see the success 
+            Don't just take our <del> Christian sarpong</del> word for it, see the success 
             stories from businesses just like yours and many more. 
         </h3>
         <div class="testimonials-grid">
@@ -110,7 +111,7 @@
                     growth app"
                 </p>
 
-                <p>Katherine Smith and Christian sarpong</p>
+                <p><em>Katherine Smith</em> and <strong>Christian sarpong</strong></p>
                 <p>Capodopera</p>
             </div>
         </div>
@@ -119,7 +120,8 @@
 
 
 <!----I am creating a form-->
-<div> 
+<section class="Forms"> 
+<div class="container"> 
   <br>
 <form>
   <label> Name </label>
@@ -128,7 +130,58 @@
   <label>Email</label>
   <input type ="text" name="email">
 </form>
+
+<select> 
+  <option> Where are you from</option>
+  <option> whats your name</option>
+</select>
 </div>
+</section>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<br>
+<!-----creating a Table-->
+  <table class="styled-table"> 
+  <thead> 
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>location</th>
+    <th>church</th>
+  </tr>
+  </thead>
+      <tbody>
+      <tr>
+  <td> Christian sarpong</td>
+  <td>20</td>
+  <td>Ghana</td>
+  <td>Gospel waves citadel</td>
+      </tr>
+      <tr>
+        <td>Joana sarpong</td>
+        <td>19</td>
+        <td>England</td>
+        <td>Church of Pentecoast</td>
+      </tr>
+    </tbody>
+</table>
+  
+<br>
+<p> 
+<!-----descriptive list-->
+A <strong>description</strong> List
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+</p>
+
+<!------Back to the Top link-->
+<a href="#top" class="back-to-top">Back to Top</a>
+
 
     <!--this is the link for the Javascript link-->
     <script src="js/main.js"></script>
